@@ -1,0 +1,85 @@
+.signin
+{
+    height: 100%;
+    width: 100%;
+    padding: 9%;
+}
+.container 
+{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 500px;
+    width: 450px;
+    background-color: rgba(255,255,255,255);
+    padding: 30px;
+    margin-top: 15%;
+    margin-right: 50%;
+}
+.container h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.container input
+{
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.container label{
+
+    margin-top: 10px;
+    color: black;
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 23px;
+    margin-left:-39.5%;
+}
+.btn1 button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 55%;
+    width: 40%;
+    cursor: pointer;
+}
+.btn1 button:hover{
+    transform: scale(1.2);
+    text-transform: uppercase;
+}
+.btn2 button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 40%;
+    cursor: pointer;
+    margin-left: 55%;
+}
+.btn2{
+    margin-top: -46px;
+}
+.btn2 button:hover{
+    transform: scale(1.2);
+    text-transform: uppercase;
+}
+.img video{
+    object-fit: cover;
+    height: 100%;width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+}
